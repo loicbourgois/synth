@@ -5,8 +5,31 @@
 		<title>title</title>
 	</head>
 	<body>
-		<audio id="audio-1" controls style="display:none">
-			<source src="https://loicbourgois.github.io/synth/salut-1.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+		<audio id="audio-1" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-1.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		
+		<audio id="audio-2" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-2.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		
+		<audio id="audio-3" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-3.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		<audio id="audio-4" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-4.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		<audio id="audio-5" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-5.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		<audio id="audio-6" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-6.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		<audio id="audio-7" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-7.wav" type="audio/mpeg"> Your browser does not support the audio element.
+		</audio>
+		<audio id="audio-8" controls>
+			<source src="https://loicbourgois.github.io/synth/salut-8.wav" type="audio/mpeg"> Your browser does not support the audio element.
 		</audio>
 		
 		
@@ -38,6 +61,27 @@ function loadKeys() {
 		console.log(e.keyCode);
 		if (e.keyCode == 65) { // A
 			document.getElementById('audio-1').play();
+		}
+		if (e.keyCode == 90) { // Z
+			document.getElementById('audio-2').play();
+		}
+		if (e.keyCode == 69) { // E
+			document.getElementById('audio-3').play();
+		}
+		if (e.keyCode == 82) { // R
+			document.getElementById('audio-4').play();
+		}
+		if (e.keyCode == 84) { // T
+			document.getElementById('audio-5').play();
+		}
+		if (e.keyCode == 89) { // Y
+			document.getElementById('audio-6').play();
+		}
+		if (e.keyCode == 85) { // U
+			document.getElementById('audio-7').play();
+		}
+		if (e.keyCode == 73) { // I
+			document.getElementById('audio-8').play();
 		}
 	});
 }
